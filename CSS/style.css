@@ -1,0 +1,30 @@
+
+div{
+    border: 3px solid white;
+    padding: 50px;
+    color: white;
+    
+}
+
+.img1 {
+    float: left;
+    margin-right: 10px;
+}
+
+.center {
+    text-align: center;
+    color: white;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    background-color: darkgray;
+    margin: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
